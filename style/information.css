@@ -1,0 +1,135 @@
+.conteiner1{
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  padding: 70px 70px;
+}
+.brush {
+  width: 445px;
+  height: 440px;
+}
+.inf-text {
+  margin-bottom: 41px;
+  margin-left: 30px;
+}
+.teem {
+  color: rgb(44, 45, 53);
+  font-family: 'Raleway';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0%;
+}
+.teem-text{
+  margin-top: 21px;
+  color: rgb(44, 45, 53);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.icon1{
+  margin-top: 20px;
+}
+.icon1 img:not(:last-of-type){
+  margin-right: 30px;
+}
+
+@media(max-width: 950px){
+  .teem-text{
+    margin-top: 20px;
+  }
+  .icon1{
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 890px){
+  .conteiner1{
+    display: block;
+  }
+  .brush{
+    width: 510px;
+    height: 504px;
+  }
+  .inf-text{
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .teem{
+    font-size: 30px;
+    margin-top: 30p;
+  }
+  .icon1{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px){
+  .icon1 img:not(:last-of-type){
+    margin-right: 26px;
+  }
+  .teem-text{
+    margin-top: 28px;
+  }
+  .conteiner1{
+    display: block;
+    padding: 70px 39px;
+  }
+  .brush{
+    width: 510px;
+    height: 504px;
+  }
+  .inf-text{
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .teem{
+    font-size: 30px;
+    margin-top: 30p;
+  }
+  .icon1{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 585px){
+  .brush{
+    width: 375px;
+    height: 370px;
+  }
+  .conteiner1{
+    padding: 50px 33px;
+  }
+  .teem-text{
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .teem{
+    font-size: 24px;
+  }
+  .inf-text{
+    margin-left: 0px;
+    margin-top: 29px;
+    margin-bottom: 0px;
+  }
+  .icon1{
+    margin-top: 16px;
+  }
+}
+
+@media(max-width: 450px){
+  .conteiner1{
+    padding: 60px 15px;
+  }
+  .brush{
+    width: 290px;
+    height: 286px;
+  }
+  .icon1 img:not(:last-of-type){
+    margin-right: 20px;
+  }
+}

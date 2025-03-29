@@ -1,0 +1,55 @@
+main{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0px 39px;
+}
+.description-item > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #E1EDE6;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  margin-bottom: 10px;
+} h2{
+  font-size: 18px;
+  color: rgb(134, 146, 139);
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+.item-price{
+  font-size: 24px;
+  color: rgb(89, 141, 102);
+  font-family: 'Raleway';
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.asd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10px;
+}
+.asd > h1{
+  font-size: 40px;
+  color: rgb(44, 45, 53);
+  font-family: 'Raleway';
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0%;
+} button{
+  cursor: pointer;
+  background-color: #D4E8D9;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+.picture{
+  width: 100px;
+}

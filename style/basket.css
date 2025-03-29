@@ -3,6 +3,9 @@ main{
   margin: 0 auto;
   padding: 0px 39px;
 }
+.basket{
+  margin-top: 70px;
+}
 .description-item > div{
   display: flex;
   justify-content: space-between;
@@ -33,6 +36,7 @@ main{
   justify-content: space-between;
   align-items: center;
   padding: 40px 10px;
+  margin-top: 100px;
 }
 .asd > h1{
   font-size: 40px;

@@ -33,7 +33,7 @@
 .icon1{
   margin-top: 20px;
 }
-.icon1 img:not(:last-of-type){
+.icon1 a:not(:last-of-type){
   margin-right: 30px;
 }
 

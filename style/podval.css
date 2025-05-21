@@ -68,9 +68,9 @@
 /* .podval-icon {
   margin-top: 6px;
 } */
-.icon-soc img:not(:last-of-type){
-  margin-right: 25px;
-}
+  .icon-soc a:not(:last-of-type) {
+    margin-right: 25px;
+  }
 .links {
   margin-left: 1px;
   margin-bottom: 6px;
